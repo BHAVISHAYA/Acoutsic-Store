@@ -590,4 +590,10 @@ body {
     -moz-text-decoration-line: none;
     color: white;
 }
+
+.author {
+    background-color: #2A2C30;
+    color: #EBF3FE;
+    border-top: 0.0001rem solid white;
+}
 /*?================Footer CSS ends here=================*/
