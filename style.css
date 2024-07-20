@@ -1,20 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    width: 100%;
-    height: 100vh;
+  width: 100%;
+  height: 100vh;
 }
-
 
 .jost {
   font-family: "Jost", sans-serif;
@@ -24,576 +23,531 @@ body {
 }
 
 .hide {
-    display: none;
+  display: none;
 }
 
 .show {
-    display: block;
+  display: block;
 }
-
-
-
 
 /*?===================Sign In and Sign Up (Start) =================*/
 .signUp {
-    background-color: #2A2C30;
-    color : white;
-    place-content: center;
+  background-color: #2a2c30;
+  color: white;
+  place-content: center;
 }
 
 .signUp a {
-    color: #2A39D3;
-    text-decoration: none;
+  color: #2a39d3;
+  text-decoration: none;
 }
 
 .signUp a:hover {
-    color: #535BF2;
+  color: #535bf2;
 }
 /*?===================Sign In and Sign Up (End) =================*/
 
-
-
-
-
-
-
-
 /*?===================Nav Bar CSS Start from here=================*/
 .myNavBar img {
-    height: 50px;
+  height: 50px;
 }
 
 .navList {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    gap: 3rem;
-    list-style : none;
-    /* font-size: 1.2rem; */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+  /* font-size: 1.2rem; */
 }
 
 .cart {
-    background-color: #2A2C30;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+  background-color: #2a2c30;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 
 .cart:hover {
-    background-color: white;
-    border: 3px solid #2A2C30;
-    text-decoration-line: none;
-    -moz-text-decoration-line: none;
-    i,#cartValue {
-        color: #2A2C30;
-    }
+  background-color: white;
+  border: 3px solid #2a2c30;
+  text-decoration-line: none;
+  -moz-text-decoration-line: none;
+  i,
+  #cartValue {
+    color: #2a2c30;
+    text-decoration: none;
+  }
 }
 
-
-.cart i, #cartValue {
-    padding: 10px 15px;
-    color: white;
-    justify-content: center;
-    align-items: center;
+.cart i,
+#cartValue {
+  padding: 10px 15px;
+  color: white;
+  justify-content: center;
+  align-items: center;
 }
 
 .navList li:hover {
-    text-decoration-line: underline;
-    -moz-text-decoration-line: underline;
-    text-decoration-color: #2A2C30;
-    -moz-text-decoration-color: #2A2C30;
+  text-decoration-line: underline;
+  -moz-text-decoration-line: underline;
+  text-decoration-color: #2a2c30;
+  -moz-text-decoration-color: #2a2c30;
 }
 
 .navList a {
-    text-decoration: none;
-    color: #2A2C30;
+  text-decoration: none;
+  color: #2a2c30;
 }
 
-@media screen and (max-width : 650px) {
-    .navList {
-        flex-direction: column;
-        gap: 10px;
-    }
+@media screen and (max-width: 650px) {
+  .navList {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 /*?===================Nav Bar CSS Ends here=================*/
 
-
-
-
-
-
-
-
-
 /*?===================Hero section CSS Starts from here=================*/
 .heroPage {
-    background-image: linear-gradient(
-        65deg,
-        hsl(240deg 96% 73%) 0%,
-        hsl(240deg 80% 70%) 11%,
-        hsl(240deg 67% 67%) 23%,
-        hsl(240deg 55% 64%) 34%,
-        hsl(240deg 44% 61%) 45%,
-        hsl(240deg 34% 57%) 57%,
-        hsl(240deg 25% 53%) 68%,
-        hsl(240deg 17% 49%) 79%,
-        hsl(240deg 10% 44%) 90%,
-        hsl(60deg 1% 39%) 100%
-    );
+  background-image: linear-gradient(
+    65deg,
+    hsl(240deg 96% 73%) 0%,
+    hsl(240deg 80% 70%) 11%,
+    hsl(240deg 67% 67%) 23%,
+    hsl(240deg 55% 64%) 34%,
+    hsl(240deg 44% 61%) 45%,
+    hsl(240deg 34% 57%) 57%,
+    hsl(240deg 25% 53%) 68%,
+    hsl(240deg 17% 49%) 79%,
+    hsl(240deg 10% 44%) 90%,
+    hsl(60deg 1% 39%) 100%
+  );
 }
 
 .heroPage button {
-    background-color: #2A2C30;
-    color: white;
-    padding: 5px 20px;
-    border: none;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    box-shadow: 2px 2px 4px #2A2C30;
+  background-color: #2a2c30;
+  color: white;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: 2px 2px 4px #2a2c30;
 }
 .heroPage button:hover {
-    background-color: white;
-    color: #2A2C30;
-    border : 3px solid #2A2C30;
-    font-weight: 700;
+  background-color: white;
+  color: #2a2c30;
+  border: 3px solid #2a2c30;
+  font-weight: 700;
 }
 
 #firstLine {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 #secondLine {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
-@media screen and (max-width : 650px) {
-    #secondLine {
-        font-size: 3rem;
-    }
+@media screen and (max-width: 650px) {
+  #secondLine {
+    font-size: 3rem;
+  }
 }
 
-@media screen and (max-width : 350px) {
-    #secondLine {
-        font-size: 2.5rem;
-        text-align: start;
-    }
+@media screen and (max-width: 350px) {
+  #secondLine {
+    font-size: 2.5rem;
+    text-align: start;
+  }
 }
-
 
 /**===============Shape Divider Starts from here==============*/
 .custom-shape-divider-bottom-1719047206 {
-    margin-top: -101px;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+  margin-top: -101px;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
 .custom-shape-divider-bottom-1719047206 svg {
-    display: block;
-    width: calc(105% + 1.3px);
-    height: 107px;
+  display: block;
+  width: calc(105% + 1.3px);
+  height: 107px;
 }
 
 .custom-shape-divider-bottom-1719047206 .shape-fill {
-    fill: white;
+  fill: white;
 }
 /**===============Shape Divider Ends here==============*/
 
 /*?================Hero section CSS Ends here=================*/
 
-
-
-
-
-
-
-
-
-
-
 /*?================Products page CSS Starts from here=================*/
 .products img {
-    rotate: 8deg;
+  rotate: 8deg;
 }
 
 .products {
-    color: #2A2C30;
+  color: #2a2c30;
 }
 
-.laptop, .headphone, .mobile{
-    background-color: hsl(0, 0%, 94%);
-    padding: 30px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+.laptop,
+.headphone,
+.mobile {
+  background-color: hsl(0, 0%, 94%);
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
-.laptop:hover, .headphone:hover, .mobile:hover {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    border : 2px solid #2A2C30;
-    background-color: white;
-    /* 9982454718 */
+.laptop:hover,
+.headphone:hover,
+.mobile:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border: 2px solid #2a2c30;
+  background-color: white;
+  /* 9982454718 */
 }
 
 .discount {
-    color: #2A2C30;
-    font-size: 1.4rem;
-    font-weight: 600;
+  color: #2a2c30;
+  font-size: 1.4rem;
+  font-weight: 600;
 }
 
 .products button {
-    border : none;
-    font-size: 1.2rem;
-    border-bottom: 2px solid #2A2C30;
+  border: none;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #2a2c30;
 }
 
 .products button:hover {
-    color: #2A39D3;
-    border-bottom: 2px solid #2A39D3;
+  color: #2a39d3;
+  border-bottom: 2px solid #2a39d3;
 }
 /*?================Products page CSS ends here=================*/
 
-
-
-
-
-
-
 /*?================Feature's page CSS Starts from here=================*/
 .features {
-    font-size: 1.1rem;
-    font-family: "Jost", sans-serif;
-    font-weight: 500;
+  font-size: 1.1rem;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
 }
 
 .features i {
-    font-size: 3rem;
-    color: #7171fd;
+  font-size: 3rem;
+  color: #7171fd;
 }
 
 .f {
-    padding-left: 3rem;
+  padding-left: 3rem;
 }
 /*?================Feature's page CSS ends here=================*/
 
-
-
-
-
 /*?================Main Product page CSS starts from here=================*/
 .mainProducts h1 {
-    font-size: 3rem;
-    text-decoration-line: underline;
-    -moz-text-decoration-line: underline;
+  font-size: 3rem;
+  text-decoration-line: underline;
+  -moz-text-decoration-line: underline;
 }
 
 .item {
-    padding: 2rem 1.5rem;
-    margin: 2rem;
-    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    overflow-wrap: break-word;
+  padding: 2rem 1.5rem;
+  margin: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  overflow-wrap: break-word;
 }
 
-@media screen and (max-width : 800px) {
-    .item {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        width: 80vw;
-    }
+@media screen and (max-width: 800px) {
+  .item {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 80vw;
+  }
 }
 
 .productCategory {
-    background-color: #E7D6D6;
-    width: 7.5rem;
-    margin-bottom: 1rem;
-    text-align: center;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+  background-color: #e7d6d6;
+  width: 7.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .productTitle {
-    font-size: 2.4rem;
+  font-size: 2.4rem;
 }
 
 .productRating {
-    color: #E9DB16;
-    font-size: 0.6rem;
-    margin-bottom: 15px;
+  color: #e9db16;
+  font-size: 0.6rem;
+  margin-bottom: 15px;
 }
 
 .productDescription {
-    font-weight: 350;
-    font-size: 1.2rem;
-    margin-bottom: 20px;
+  font-weight: 350;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
 }
 
 .productPrice {
-    display: flex;
-    gap: 2rem;
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin-bottom: 30px;
+  display: flex;
+  gap: 2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 30px;
 }
 
-@media screen and (max-width : 850px) {
-    .productPrice {
-        gap: 1rem;
-    }
+@media screen and (max-width: 850px) {
+  .productPrice {
+    gap: 1rem;
+  }
 }
 
 .actualPrice {
-    text-decoration-line: line-through;
-    -moz-text-decoration-line: line-through;
+  text-decoration-line: line-through;
+  -moz-text-decoration-line: line-through;
 }
 
 .productStock {
-    font-size: 1.1rem;
-    font-weight: 350;
+  font-size: 1.1rem;
+  font-weight: 350;
 }
 
-
 .quantityWanted {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 .quantitySetter {
-    display: flex;
-    justify-content: start;
-    align-items: baseline;
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
 }
 
-.increment, .decrement {
-    border: none;
-    text-align: center;
-    padding: 0.3rem 1.1rem;
-    font-size: 1.4rem;
-    font-weight: 500;
-    background-color: white;
+.increment,
+.decrement {
+  border: none;
+  text-align: center;
+  padding: 0.3rem 1.1rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  background-color: white;
 }
 
 .increment {
-    border : 2px solid black;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+  border: 2px solid black;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .decrement {
-    border : 2px solid black;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+  border: 2px solid black;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
-.increment:hover, .decrement:hover {
-    background-color: #2A2C30;
-    color: white;
+.increment:hover,
+.decrement:hover {
+  background-color: #2a2c30;
+  color: white;
 }
 
 .quantityValue {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    padding: 0.3rem 1rem;
-    text-align: center;
-    font-size: 1.4rem;
-    font-weight: 500;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 0.3rem 1rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 500;
 }
 
-
 .addToCart {
-    margin-top: 20px;
-    border: none;
-    background-color: #2A2C30;
-    color: white;
-    padding: 0.7rem 2rem;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    font-size: 1rem;
+  margin-top: 20px;
+  border: none;
+  background-color: #2a2c30;
+  color: white;
+  padding: 0.7rem 2rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-size: 1rem;
 }
 
 .addToCart:hover {
-    background-color: white;
-    color: #2A2C30;
-    border : 4px solid #2A2C30;
+  background-color: white;
+  color: #2a2c30;
+  border: 4px solid #2a2c30;
 }
 /*?================Main Product page CSS ends here=================*/
 
-
-
-
-
-
-
 /*?================ProsPage CSS starts from here=================*/
 .prosPage h1 {
-    font-size: 3rem;
-    text-decoration-line: underline;
-    -moz-text-decoration-line: underline;
+  font-size: 3rem;
+  text-decoration-line: underline;
+  -moz-text-decoration-line: underline;
 }
 
-.leftSidePros, .rightSidePros {
-    display: flex;
-    flex-direction: column;
+.leftSidePros,
+.rightSidePros {
+  display: flex;
+  flex-direction: column;
 }
 
 .centerImage {
-    width: 30rem;
-    height: 30rem;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    background-color: #3381FF;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #3381ff;
 }
 
 .centerImage img {
-    margin-top: -4rem;
+  margin-top: -4rem;
 }
 
-@media screen and (max-width : 1200px) {
-    .centerImage {
-        width: 25rem;
-        height: 25rem;
-    }
+@media screen and (max-width: 1200px) {
+  .centerImage {
+    width: 25rem;
+    height: 25rem;
+  }
 }
 
-@media screen and (max-width : 992px) {
-    .centerImage {
-        margin-top: 6rem;
-        width: 25rem;
-        height: 25rem;
-    }
+@media screen and (max-width: 992px) {
+  .centerImage {
+    margin-top: 6rem;
+    width: 25rem;
+    height: 25rem;
+  }
 }
 
-@media screen and (max-width : 700px) {
-    .centerImage {
-        margin-top: 5rem;
-        width: 25rem;
-        height: 25rem;
-    }
+@media screen and (max-width: 700px) {
+  .centerImage {
+    margin-top: 5rem;
+    width: 25rem;
+    height: 25rem;
+  }
 }
 
-@media screen and (max-width : 550px) {
-    .centerImage {
-        margin-top: 4rem;
-        width: 20rem;
-        height: 20rem;
-    }
-    .centerImage img {
-        margin-top: -2.5rem;
-    }
+@media screen and (max-width: 550px) {
+  .centerImage {
+    margin-top: 4rem;
+    width: 20rem;
+    height: 20rem;
+  }
+  .centerImage img {
+    margin-top: -2.5rem;
+  }
 }
 
-@media screen and (max-width : 375px) {
-    .centerImage {
-        margin-top: 3rem;
-        width: 15rem;
-        height: 15rem;
-    }
-    .centerImage img {
-        margin-top: -1.5rem;
-    }
+@media screen and (max-width: 375px) {
+  .centerImage {
+    margin-top: 3rem;
+    width: 15rem;
+    height: 15rem;
+  }
+  .centerImage img {
+    margin-top: -1.5rem;
+  }
 }
 
-
-@media screen and (max-width : 275px) {
-    .centerImage {
-        margin-top: 3rem;
-        width: 13rem;
-        height: 13rem;
-    }
-    .centerImage img {
-        margin-top: -1rem;
-    }
+@media screen and (max-width: 275px) {
+  .centerImage {
+    margin-top: 3rem;
+    width: 13rem;
+    height: 13rem;
+  }
+  .centerImage img {
+    margin-top: -1rem;
+  }
 }
 
 .number {
-    background-color: #EBF3FE;
-    color: #5F67F3;
-    padding: 1rem 1.4rem;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    font-weight: 600;
-    font-size: 1.2rem;
+  background-color: #ebf3fe;
+  color: #5f67f3;
+  padding: 1rem 1.4rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 
 .title {
-    font-size: 1.2rem;
-    font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .desc {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 /*?================ProsPage CSS ends here=================*/
 
-
-
-
-
-
-
-
-
-
-
 /*?================Footer CSS starts here=================*/
 .footer {
-    background-color: #2A2C30;
-    color: #EBF3FE;
+  background-color: #2a2c30;
+  color: #ebf3fe;
 }
 
 .footer input {
-    border : none;
-    outline: none;
-    background-color: #1E1F23;
-    border-bottom: 1px solid #E7D6D6;
-    padding: 0.7rem 0.5rem;
-    color: #E7D6D6;
-    font-weight: 600;
+  border: none;
+  outline: none;
+  background-color: #1e1f23;
+  border-bottom: 1px solid #e7d6d6;
+  padding: 0.7rem 0.5rem;
+  color: #e7d6d6;
+  font-weight: 600;
 }
 
 .footer ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .footer a {
-    text-decoration-line: none;
-    -moz-text-decoration-line: none;
-    color: white;
+  text-decoration-line: none;
+  -moz-text-decoration-line: none;
+  color: white;
 }
 
 .author {
-    background-color: #2A2C30;
-    color: #EBF3FE;
-    border-top: 0.0001rem solid white;
+  background-color: #2a2c30;
+  color: #ebf3fe;
+  border-top: 0.1px solid white;
 }
 /*?================Footer CSS ends here=================*/
